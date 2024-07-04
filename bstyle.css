@@ -1,0 +1,703 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.navbar{
+margin-top: 0px;
+height: 60px;
+width: 1263px;
+background-color:rgb(0255, 0255, 0255) ;
+box-shadow: 0px 0px 15px grey;
+display: flex;
+position: sticky;
+top: 0;
+}
+/*box1 logo*/
+.navlogo{
+height: 50px;
+width: 200px;
+margin-top: 05px;
+margin-left: 05px;
+margin-bottom: 0px;
+padding-top: 0px;
+align-items: center;
+}
+/*box2*/
+
+.dadd{
+margin-top: 05px;
+font-size: 15px;
+}
+.iadd{
+margin-top: 05px;
+font-size: 10px;
+}
+.line1{
+display: flex;
+}
+.pinlogo{
+margin-top: 10px;
+margin-left: 15px;
+background-color: none;
+}
+/*box3 search*/
+.search{
+margin-top: 19px;
+margin-left: 300px;
+width: 110px;
+font-size: 20px;
+position: flex;
+}
+.searchbar{
+font-size: 20px;
+border-top: none;
+border-right: none;
+border-left: none;
+border-bottom: none;
+outline: 0px solid transparent;
+font-size: 20px;
+width: 80px;
+}
+/*box4 dine in*/
+.dinein{
+height: 25px;
+display: flex;
+margin-top: 19px;
+cursor: pointer;
+font-size: 20px;
+}
+.dinein:hover{
+border-bottom: 02px solid black;
+}
+.dine{
+font-size: 20px;
+margin-left: 05px;
+}
+/*box5 menu*/
+.menu{
+height: 25px;
+display: flex;
+margin-top: 19px;
+margin-left: 30px;
+font-size: 20px;
+cursor: pointer;
+}
+.menu:hover{
+border-bottom: 02px solid black;
+}
+.menu1{
+margin-left: 05px;
+font-size: 20px;
+}
+/*box6 catering*/
+.catering{
+height: 25px;
+display: flex;
+margin-left: 30px;
+margin-top: 19px;
+font-size: 20px;
+cursor: pointer;
+box-shadow: 0px,0px,05px,10px black;
+}
+.catering:hover{
+background-color: rgb(234, 225, 225,);
+border-bottom: 02px solid;
+border-color: rgb(0, 0, 0);
+}
+.catering1{
+font-size: 20px;
+margin-left: 03px;
+}
+/* box7 wallet*/
+.wallet{
+color: red;
+margin-left: 30px;
+margin-top: 19px;
+font-size: 20px;
+cursor: pointer;
+}
+/*box8 login*/
+.login{
+margin-top: 10px;
+margin-left: 30px;
+}
+.lgbt{
+border: 02px solid orange;
+cursor: pointer;
+border-radius: 05%;
+background-color: transparent;
+height: 40px;
+width: 90px;
+}
+.lgbt:hover{
+background-color: blanchedalmond;
+}
+.coverpic{
+margin-top: 20px;
+margin-left: 00px;
+height: 450px;
+width: auto;
+border: 00px solid transparent;
+cursor: pointer;
+display: flex;
+background-image: linear-gradient(to top left, rgb(252, 186, 3),rgba(255,0,0,0.5));
+}
+.coverpic:hover{
+border: 0px solid red;
+}
+.cpic1{
+margin-top: 020px;
+margin-left: 10px;
+}
+.info{
+display: inline-block;
+margin-left: 30px;
+}
+.info1{
+color: maroon;
+font-size: 50px;
+
+}
+.info2{
+color: maroon;
+font-size: 35px;
+}
+.info3{
+color: beige;
+margin-top: 20px;
+font-size: 30px;
+}
+.spacediv{
+height: 10px;
+width: auto;
+background-color: white;
+}
+/*box9 offers*/
+.offers{
+margin: 0px;
+padding: 0px;
+margin-left: 10px;
+margin-top: 0px;
+}
+.offbar{
+margin-left: 15px;
+margin-top: 10px;
+display: flex;
+background-color: white;
+height: 50px;
+width: 1050px;
+
+}
+.offbar1{
+background-color: red;
+height: 50px;
+width: 250px;
+/*margin-top: 20px;*/
+margin-left: 20px;
+border-radius: 05px;
+transition: width 0s, hieght 0s, transform 0s;
+cursor: pointer;
+}
+.ob1{
+margin-top: 13px;
+font-size: 15px;
+color: white;
+}
+.ob2{
+font-size: 013px;
+color:white;
+}
+.offbar2{
+border-radius: 03%;
+/*margin-top: 20px;*/
+background-color: orange;
+height: 50px;
+width: 250px;
+margin-left: 20px;
+transition: width 0s, hieght 0s, transform 0s;
+cursor: pointer;
+}
+.offbar3{
+border-radius: 03%;
+/*margin-top: 20px;*/
+background-color: red;
+height: 50px;
+width: 250px;
+margin-left: 20px;
+transition: width 0s, hieght 0s, transform 0s;
+cursor: pointer;
+}
+.offbar4{
+border-radius: 03%;
+/*margin-top: 20px;*/
+background-color: orange;
+height: 50px;
+width: 250px;
+margin-left: 20px;
+transition: width 0s, hieght 0s, transform 0s;
+cursor: pointer;
+}
+.ob1{
+margin-left: 10px;
+}
+.ob2{
+margin-left: 10px;
+}
+/*categories*/
+.categories{
+height: 350px;
+width: 1200px;
+background-color: white;
+margin-top: 10px;
+margin-left: 40px;
+}
+.arrowfn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+}
+.fa-arrow-left{
+    color: black;
+    background-color: whitesmoke;
+    font-size: 25px;
+   height: 25px; 
+   border-radius: 10px;
+}
+.fa-arrow-right{
+    color: black;
+    background-color: whitesmoke;
+    font-size: 25px;
+   border-radius: 50%;
+}
+.items{
+height: 270px;
+width: 1200px;
+background-color: white;
+margin-top: 0px;
+margin-left: 0px;
+display: flex;
+overflow-x: scroll;
+white-space: wrap;
+
+}
+.items::-webkit-scrollbar{
+display: none;
+}
+.itimg1{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+margin-left: 02px;
+margin-top: 10px;
+padding: 10px;
+}
+.ithead1{
+margin-left: 18px;
+}
+.ithead2{
+margin-left: 25px;
+}
+.ithead3{
+margin-left: 30px;
+}
+.ithead4{
+margin-left: 60px;
+}
+.ithead5{
+margin-left: 35px;
+}
+.ithead6{
+margin-left: 28px;
+}
+.ithead7{
+margin-left: 15px;
+}
+.ithead8{
+margin-left: 18px;
+}
+.it1{
+margin-top: 20px;
+margin-left: 025px;
+border-radius: 05%;
+background-color: white;
+height: 230px;
+width: 250px;
+box-shadow: 1px 00px 05px 010px rgba(0, 0, 0, 0.090000000);
+cursor: pointer;
+}
+.divspace1{
+height: 250px;
+width: 10px;
+background-color: white;
+margin-left: 20px;
+}
+.hr1{
+margin-top: 20px;
+margin-left: 40px;
+width: 1200px;
+}
+.hb1{
+margin-top: 30px;
+margin-left: 90px;
+}
+.mainitm{
+margin-right: 20px;
+margin-left: 40px;
+margin-top: 0px;
+height: auto;
+width: 900px;
+background-color: white;
+box-shadow: 0px 0px 0px 0px gainsboro;
+border-radius: 1%;
+
+}
+.mainitm1{
+display: flex;
+margin-bottom: 10px;
+}
+
+.paneerbr1{
+margin-top: 40px;
+margin-left: 050px;
+border-radius: 02%;
+height: 450px;
+width: 400px;
+background-color: white;
+margin-bottom: 10px;
+box-shadow: 0px 0px 09px 0px gainsboro ;
+}
+.cimg{
+width: 400px;
+height: 200px;
+background-image: url("pb1.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg1{
+width: 400px;
+height: 200px;
+background-image: url("eggbr.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg2{
+width: 400px;
+height: 200px;
+background-image: url("psbr.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg3{
+width: 400px;
+height: 200px;
+background-image: url("vegbr.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg4{
+width: 400px;
+height: 200px;
+background-image: url("clb.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg5{
+width: 400px;
+height: 200px;
+background-image: url("clb.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg6{
+width: 400px;
+height: 200px;
+background-image: url("mlb.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg7{
+width: 400px;
+height: 200px;
+background-image: url("mlb.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg8{
+width: 400px;
+height: 200px;
+background-image: url("kcb.jpeg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg9{
+width: 400px;
+height: 200px;
+background-image: url("kcb.jpeg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg10{
+width: 400px;
+height: 200px;
+background-image: url("mlb.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg11{
+width: 400px;
+height: 200px;
+background-image: url("mlb.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg12{
+width: 400px;
+height: 200px;
+background-image: url("mlb.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.cimg13{
+width: 400px;
+height: 200px;
+background-image: url("mlb.jpg");
+background-size: cover;
+cursor: pointer;
+}
+.veg{
+margin-top: 10px;
+margin-left: 10px;
+height: 20px;
+width: 20px;
+background-color: greenyellow;
+border-radius: 20%;
+}
+.nonveg{
+margin-top: 10px;
+margin-left: 10px;
+height: 20px;
+width: 20px;
+background-color: maroon;
+border-radius: 20%;
+
+}
+.paneerbr2{
+margin-top: 40px;
+margin-left: 010px;
+border-radius: 02%;
+height: 450px;
+width: 400px;
+background-color: white;
+box-shadow: 0px 0px 09px 0px gainsboro ;
+}
+.itmname{
+border-radius: 01%;
+height: 40px;
+background-color: white;
+display: flex;
+}
+.itdes{
+line-height: 025px;
+margin: 05px;
+background-color: white;
+height: 80px;
+cursor: pointer;
+}
+.ithh{
+margin-left: 05px;
+margin-top: 10px;
+}
+.adtct{
+margin-top: 020px;
+cursor: pointer;
+border-radius: 010px;
+font-size: 20px;
+background-color: #ffd278;
+margin-left: 25px;
+height: 50px;
+width: 350px;
+border: 0px solid  ;
+}
+.adtct:hover{
+cursor: pointer;
+height: 52px;
+width: 352px;
+background-color:rgb(255, 170, 0);
+
+}
+.itprc{
+height: 40px;
+background-color: yellow;
+}
+.prcbt{
+border: 0px solid;
+background-color:rgb(255, 255, 0);
+font-size: 20px;
+height: 40px;
+width: 400px;
+}
+.endpt{
+background-color:#920034;
+width: auto;
+height: 450px;
+display: flex;
+}
+.endpic{
+margin-left: 20px;
+margin-top: 20px;
+}
+.endh{
+font-size: 27px;
+color: white;
+margin-left: 100px;
+margin-top: 50px;
+}
+.endh2{
+font-size: 27px;
+color: white;
+margin-left: 100px;
+margin-top: 50px;
+}
+.endlst{
+color: gainsboro;
+font-size: 20px;
+margin-top: 30px;
+margin-left: 130px;
+list-style: none;
+}
+.ab{
+height: 20px;
+cursor: pointer;
+}
+.ab1{
+height: 020px;
+}
+.phno{
+cursor: pointer;
+color: rgb(255, 221, 0);
+margin-left: 010px;
+}
+.endlst2{
+display: flex;
+color: gainsboro;
+line-height: 40px;
+font-size: 30px;
+margin-top: 30px;
+margin-left: 100px;
+list-style: none;
+}
+.ullinks2{
+
+height: 150px;
+width: auto;
+}
+.mobapp{
+color: white;
+margin-left: 100px;
+margin-top: 50px;
+font-size: 40px;
+height: 50px;
+width: auto;
+}
+.psc{
+margin-top: 15px;
+border: 01px solid black;
+border-radius: 05px;
+cursor: pointer;
+}
+.psc1{
+margin-left: 20px;
+margin-top: 15px;
+border: 01px solid white;
+border-radius: 05px;
+cursor: pointer;
+}
+.followus{
+cursor:progress;
+display: flex;
+margin-top: 100px;
+margin-left: 100px;
+}
+.scmed{
+cursor: pointer;
+list-style: none;
+display: flex;
+}
+.fa-instagram{
+cursor: pointer;
+color: white;
+font-size: 30px;
+margin-left: 30px;
+}
+.fa-facebook-f{
+cursor: pointer;
+color: white;
+font-size: 30px;
+margin-left: 30px;
+}
+.fa-linkedin-in{
+cursor: pointer;
+color: white;
+font-size: 30px;
+margin-left: 30px;
+}
+.fa-x-twitter{
+cursor: pointer;
+color: white;
+font-size: 30px;
+margin-left: 30px;
+}
+.fa-youtube{
+cursor: pointer;
+color: white;
+font-size: 30px;
+margin-left: 30px;
+}
+.followus h3{
+color: white;
+font-size: 25px;
+margin-top: 0px;
+}
+.crt{
+align-items: center;
+height: 90px;
+background-color: #920034;
+}
+.crh{
+font-size: larger;
+color: gray;
+margin-top: 20px;
+margin-left: 400px;
+}
+@media (max-width:412px ){
+    .coverpic{
+        visibility: collapse;
+    }
+    .site{
+        visibility: visible;
+    }
+    .categories{
+        visibility: collapse;
+    }
+    .navbar{
+        visibility: collapse;
+    }
+    .endpt{
+        visibility: collapse;
+    }
+    .crt{
+        visibility: collapse;
+    }
+    .offers{
+        visibility: collapse;
+    }
+    .items{
+        visibility: collapse;
+    }
+    body{
+        visibility: collapse;
+    }
+   
+}
