@@ -671,33 +671,4 @@ color: gray;
 margin-top: 20px;
 margin-left: 400px;
 }
-@media (max-width:412px ){
-    .coverpic{
-        visibility: collapse;
-    }
-    .site{
-        visibility: visible;
-    }
-    .categories{
-        visibility: collapse;
-    }
-    .navbar{
-        visibility: collapse;
-    }
-    .endpt{
-        visibility: collapse;
-    }
-    .crt{
-        visibility: collapse;
-    }
-    .offers{
-        visibility: collapse;
-    }
-    .items{
-        visibility: collapse;
-    }
-    body{
-        visibility: collapse;
-    }
-   
-}
+
